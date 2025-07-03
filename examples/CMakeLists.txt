@@ -4,15 +4,15 @@ project(examples)
 
 # set cinolib options. projects depending from options that are disabled won't be compiled
 set(CINOLIB_USES_OPENGL_GLFW_IMGUI    ON )
-set(CINOLIB_USES_TETGEN               ON )
-set(CINOLIB_USES_TRIANGLE             ON )
+set(CINOLIB_USES_TETGEN               OFF )
+set(CINOLIB_USES_TRIANGLE             OFF )
 set(CINOLIB_USES_SHEWCHUK_PREDICATES  ON )
-set(CINOLIB_USES_INDIRECT_PREDICATES  ON )
+set(CINOLIB_USES_INDIRECT_PREDICATES  OFF )
 set(CINOLIB_USES_GRAPH_CUT            OFF)
 set(CINOLIB_USES_BOOST                OFF)
 set(CINOLIB_USES_VTK                  OFF) # optional, if added VTK formats will be supported everywhere
-set(CINOLIB_USES_SPECTRA              ON )
-set(CINOLIB_USES_CGAL_GMP_MPFR        ON )
+set(CINOLIB_USES_SPECTRA              OFF )
+set(CINOLIB_USES_CGAL_GMP_MPFR        OFF )
 
 # pass cinolib and the external dependencies to all examples
 set(cinolib_DIR "${PROJECT_SOURCE_DIR}/..")
