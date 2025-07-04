@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.2)
 project(examples)
 
 # set cinolib options. projects depending from options that are disabled won't be compiled
-set(CINOLIB_USES_OPENGL_GLFW_IMGUI    ON )
+set(CINOLIB_USES_OPENGL_GLFW_IMGUI    OFF )
 set(CINOLIB_USES_TETGEN               OFF )
 set(CINOLIB_USES_TRIANGLE             OFF )
 set(CINOLIB_USES_SHEWCHUK_PREDICATES  ON )
